@@ -1,0 +1,14 @@
+{
+  "FrameworkConfig": {
+    "browser": "chrome",
+    "pathToResources": "/framework/resources/",
+    "waitingTime": 30
+  },
+  "ApplicationConfig": {
+    "protocol": " http://",
+    "server": "ru.",
+    "resource": "battleship-game.org/",
+    "localization": "en",
+    "baseUrl": ""
+  }
+}
