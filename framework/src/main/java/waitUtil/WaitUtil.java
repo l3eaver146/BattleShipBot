@@ -4,7 +4,7 @@ import browserFactory.Browser;
 import browserFactory.config.FrameworkConfig;
 import fileUtil.FileUtil;
 import logger.Logger;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -36,7 +36,21 @@ public class WaitUtil {
 
     public static WebElement waitForElementClickable(WebElement element) {
         WebDriverWait wait = new WebDriverWait(Browser.getInstance().getDriver(), WAITING_TIME);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+        }catch (NoSuchElementException | TimeoutException exception){
+            Logger.error(exception.getMessage());
+        }
         return element;
+    }
+
+    public static boolean isElementVisibleWithWait(By locator) {
+        WebDriverWait wait = new WebDriverWait(Browser.getInstance().getDriver(), 1);
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            return true;
+        } catch (NoSuchElementException | TimeoutException exception) {
+            return false;
+        }
     }
 }

@@ -1,101 +1,138 @@
-2020-12-21 20:33:07 INFO  Logger:24 - Creating driver
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for displayed : Main page unique element
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for clickable : Main page unique element
-2020-12-21 20:33:15 INFO  Logger:24 - Element Main page unique elementis visible : true
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for displayed : Random opponent button
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for clickable : Random opponent button
-2020-12-21 20:33:15 INFO  Logger:24 - Click Random opponent button
-2020-12-21 20:33:15 INFO  Logger:24 - Random opponent fount
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for displayed : Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for clickable : Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Click Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for displayed : Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for clickable : Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Click Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for displayed : Randomly button
-2020-12-21 20:33:15 INFO  Logger:24 - Waiting for clickable : Randomly button
-2020-12-21 20:33:16 INFO  Logger:24 - Click Randomly button
-2020-12-21 20:33:16 INFO  Logger:24 - Waiting for displayed : Randomly button
-2020-12-21 20:33:16 INFO  Logger:24 - Waiting for clickable : Randomly button
-2020-12-21 20:33:16 INFO  Logger:24 - Click Randomly button
-2020-12-21 20:33:16 INFO  Logger:24 - Positions changed
-2020-12-21 20:33:24 INFO  Logger:24 - Waiting for displayed : Start button
-2020-12-21 20:33:24 INFO  Logger:24 - Waiting for clickable : Start button
-2020-12-21 20:33:24 INFO  Logger:24 - Click Start button
-2020-12-21 20:33:25 INFO  Logger:24 - Starting gaming
-2020-12-21 20:33:25 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:29 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:30 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:32 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:33 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:33 INFO  Logger:24 - Miss down
-2020-12-21 20:33:33 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:35 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:37 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:39 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:43 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:44 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:45 INFO  Logger:24 - Miss up
-2020-12-21 20:33:45 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:46 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:48 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:49 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:51 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:52 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:53 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:53 INFO  Logger:24 - Miss down
-2020-12-21 20:33:53 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:55 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:57 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:58 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:59 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:33:59 INFO  Logger:24 - Miss up
-2020-12-21 20:33:59 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:01 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:03 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:04 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:06 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:09 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:11 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:12 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:12 INFO  Logger:24 - Miss up
-2020-12-21 20:34:13 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:14 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:16 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:17 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:20 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:21 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:22 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:24 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:27 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:29 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:29 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:30 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:30 INFO  Logger:24 - Miss down
-2020-12-21 20:34:30 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:32 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:32 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:32 INFO  Logger:24 - Miss up
-2020-12-21 20:34:32 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:33 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:34 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:35 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:36 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:37 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:39 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:40 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:41 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:43 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:45 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:47 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:48 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:50 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:52 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:53 INFO  Logger:24 - Miss left
-2020-12-21 20:34:53 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:54 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:56 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:58 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:58 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:59 INFO  Logger:24 - Waiting for disappear : Battle field disabled
-2020-12-21 20:34:59 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:30 INFO  Logger:24 - Creating driver
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for displayed : Main page unique element
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for clickable : Main page unique element
+2020-12-22 17:34:38 INFO  Logger:24 - Element Main page unique elementis visible : true
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for displayed : Random opponent button
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for clickable : Random opponent button
+2020-12-22 17:34:38 INFO  Logger:24 - Click Random opponent button
+2020-12-22 17:34:38 INFO  Logger:24 - Random opponent fount
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:38 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Click Randomly button
+2020-12-22 17:34:39 INFO  Logger:24 - Positions changed
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for displayed : Start button
+2020-12-22 17:34:39 INFO  Logger:24 - Waiting for clickable : Start button
+2020-12-22 17:34:40 INFO  Logger:24 - Click Start button
+2020-12-22 17:34:40 INFO  Logger:24 - Starting gaming
+2020-12-22 17:34:40 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:45 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:47 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:49 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:49 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:50 INFO  Logger:24 - Miss down
+2020-12-22 17:34:50 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:51 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:53 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:57 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:34:58 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:01 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:02 INFO  Logger:24 - Miss left
+2020-12-22 17:35:02 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:04 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:06 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:08 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:12 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:15 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:15 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:16 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:17 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:19 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:20 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:21 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:22 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:24 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:25 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:26 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:26 INFO  Logger:24 - Miss left
+2020-12-22 17:35:26 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:28 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:30 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:30 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:33 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:33 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:34 INFO  Logger:24 - Miss down
+2020-12-22 17:35:34 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:35 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:37 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:38 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:39 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:40 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:41 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:43 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:44 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:45 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:46 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:47 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:48 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:49 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:50 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:51 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:54 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:56 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:56 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:56 INFO  Logger:24 - Miss up
+2020-12-22 17:35:56 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:57 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:35:58 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:00 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:02 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:03 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:04 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:05 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:06 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:07 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:08 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:09 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:10 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:10 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:11 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:13 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:16 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:16 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:17 INFO  Logger:24 - Miss up
+2020-12-22 17:36:17 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:18 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:20 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:24 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:26 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:27 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:29 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:33 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:35 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:37 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:37 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:37 INFO  Logger:24 - Waiting for disappear : Battle field disabled
+2020-12-22 17:36:39 INFO  Logger:24 - Waiting for disappear : Battle field disabled

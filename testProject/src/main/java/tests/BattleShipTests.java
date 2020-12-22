@@ -29,9 +29,9 @@ public class BattleShipTests {
     public void battleShipTests() {
         Assert.assertTrue("Main page wasn't opened", MainPageSteps.wasPageOpened());
         MainPageSteps.chooseRandomOpponent();
-        MainPageSteps.clickRandomlyButtonSeveralTimes(1, 15);
+        MainPageSteps.clickButtonRandomlySeveralTimes(1, 15);
         MainPageSteps.startGame();
-        GameplayAlgorithm.playGame();
+        new GameplayAlgorithm().playGame();
         Assert.assertTrue("Something went wrong, you loose", GamePlayPageSteps.isWin());
     }
 }

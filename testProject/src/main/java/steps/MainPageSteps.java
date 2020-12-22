@@ -9,13 +9,15 @@ import java.util.stream.IntStream;
 public class MainPageSteps {
     private static final MainPage mainPage = new MainPage();
 
+    private final static int MINIMAL_BOUND_VALUE = 1;
+
     public static boolean wasPageOpened() {
         return mainPage.isPageOpened();
     }
 
-    public static void clickRandomlyButtonSeveralTimes(int min, int max) {
+    public static void clickButtonRandomlySeveralTimes(int min, int max) {
         int timesNumber = new Random().nextInt(max - min + 1) + min;
-        IntStream.range(1, timesNumber) //defining boundaries for generating a number. 1 - minimum number that can be generated
+        IntStream.range(MINIMAL_BOUND_VALUE, timesNumber) //defining boundaries for generating a number. 1 - minimum number that can be generated
                 .forEach(i -> mainPage.clickRandomlyButton());
         Logger.info("Positions changed");
     }

@@ -1,23 +1,33 @@
 package algorithms;
 
-import algorithms.enums.FieldStatuses;
-import algorithms.enums.ShotVariants;
+import algorithms.enums.FieldStatus;
+import algorithms.enums.ShotVariant;
 import algorithms.models.Point;
-import browserFactory.Browser;
 import logger.Logger;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebElement;
+import pages.GameplayPage;
+import pages.elements.PointForm;
+import steps.GamePlayPageSteps;
 import waitUtil.WaitUtil;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-import static algorithms.GameplayAlgorithm.getGameplayPage;
-import static algorithms.GameplayAlgorithm.getPoint;
-import static steps.GamePlayPageSteps.*;
+import static steps.GamePlayPageSteps.isGameFinished;
 
-public class ShotAlgorithm {
-    public static boolean shot(ShotVariants shotVariant, Point point) {
+public class ShotActions {
+    public ShotActions(){
+        gameplayPage = new GameplayPage();
+    }
+
+    private final GameplayPage gameplayPage;
+
+    public PointForm getPoint() {
+        return gameplayPage.getPoint();
+    }
+
+    public boolean isHittedAfterShot(ShotVariant shotVariant, Point point) {
         int tempX = point.getX();
         int tempY = point.getY();
         switch (shotVariant) { //shot at position from the current point
@@ -31,45 +41,45 @@ public class ShotAlgorithm {
                 return false;
             }
         }
-        pointShot(tempY, tempX);
+        this.pointShot(tempY, tempX);
         point.setX(tempX);
         point.setY(tempY);
-        return getPoint().waitForPointBecome(FieldStatuses.HIT, tempY, tempX);
+        return this.getPoint().isPointStatusChangedWithWait(FieldStatus.HIT, tempY, tempX);
     }
 
-    public static void pointShot(int y, int x) {
+    public void pointShot(int y, int x) {
         if (isGameFinished()) {
             return;
         }
-        getGameplayPage().waitForYourTurnLabelAppears();
-        if (isPointStatusEquals(FieldStatuses.EMPTY, y, x)) {
-            findElement(y, x, FieldStatuses.EMPTY).click();
-            getPoint().waitForPointBecome(FieldStatuses.HIT, y, x);
+        this.gameplayPage.waitForYourTurnLabelAppearsIfGameContinue();
+        if (GamePlayPageSteps.isPointStatusEquals(FieldStatus.EMPTY, y, x)) {
+            GamePlayPageSteps.findElement(y, x, FieldStatus.EMPTY).click();
+            this.getPoint().isPointStatusChangedWithWait(FieldStatus.HIT, y, x);
         }
     }
 
-    public static void shotUntilShipDie(int y, int x) {
-        if (shelling(ShotVariants.UP, y, x)) {
+    public void shotUntilShipDie(int y, int x) {
+        if (this.shelling(ShotVariant.UP, y, x)) {
             Logger.info("Miss up");
         } else {
-            if (shelling(ShotVariants.DOWN, y, x)) {
+            if (this.shelling(ShotVariant.DOWN, y, x)) {
                 Logger.info("Miss down");
             } else {
-                if (shelling(ShotVariants.LEFT, y, x)) {
+                if (this.shelling(ShotVariant.LEFT, y, x)) {
                     Logger.info("Miss left");
                 } else {
-                    shelling(ShotVariants.RIGHT, y, x);
+                    this.shelling(ShotVariant.RIGHT, y, x);
                 }
             }
         }
     }
 
-    public static boolean shelling(ShotVariants shotVariant, int y, int x) {
+    public boolean shelling(ShotVariant shotVariant, int y, int x) {
         int count = 0;
         Point point = new Point(y, x);
         while (count < 4) { //until the maximum possible number of shots in one direction is reached
-            if (shot(shotVariant, point)) {
-                if (isPointStatusEquals(FieldStatuses.DONE, point.getY(), point.getX())) {
+            if (this.isHittedAfterShot(shotVariant, point)) {
+                if (GamePlayPageSteps.isPointStatusEquals(FieldStatus.DONE, point.getY(), point.getX())) {
                     return true;
                 } else {
                     count++;
@@ -81,20 +91,21 @@ public class ShotAlgorithm {
         return false;
     }
 
-    public static void startRandomShelling() {
-        ArrayList<WebElement> emptyPoints = (ArrayList<WebElement>) Browser.getInstance().getDriver().findElements(getPoint().getEmptyPointLocator());
+    public void startRandomShelling() {
+        ArrayList<WebElement> emptyPoints = this.gameplayPage.getEmptyPoints();
         int shots = emptyPoints.size();
         while (shots > 0) { //the number decreases with each new shot
             if (isGameFinished()) {
                 return;
             }
-            getGameplayPage().waitForYourTurnLabelAppears();
             shots = emptyPoints.size();
             int index = new Random().nextInt(shots + 1); //random number generation boundaries
+            this.gameplayPage.waitForYourTurnLabelAppearsIfGameContinue();
             try {
                 WaitUtil.waitForElementClickable(emptyPoints.get(index)).click();
                 emptyPoints.remove(index);
-            } catch (ElementClickInterceptedException | IndexOutOfBoundsException ignored) {
+            }catch (IndexOutOfBoundsException | ElementClickInterceptedException ignored){
+
             }
         }
     }

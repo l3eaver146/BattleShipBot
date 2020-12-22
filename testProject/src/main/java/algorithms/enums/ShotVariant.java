@@ -8,16 +8,16 @@ import java.util.Arrays;
 
 @Getter
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
-public enum FieldStatuses {
-    EMPTY("empty"),
-    MISS_AUTO("miss_auto"),
-    MISS("miss"),
-    HIT("hit"),
-    DONE("done");
+public enum ShotVariant {
+    LEFT("left"),
+    RIGHT("right"),
+    UP("up"),
+    CURRENT("current"),
+    DOWN("down");
     private final String title;
 
-    public static FieldStatuses getByName(String name) {
-        return Arrays.stream(FieldStatuses.values())
+    public static ShotVariant getByName(String name) {
+        return Arrays.stream(ShotVariant.values())
                 .filter(element -> element.title.equalsIgnoreCase(name))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException((String.format("Unsupported type %s", name))));
